@@ -14,6 +14,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @Theme(value = "vaadin24-native")
+@MyAnnotation(value = "line-awesome", version = "1.3.0")
+@MyAnnotation(value = "@vaadin-component-factory/vcf-nav", version = "1.0.6")
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {
